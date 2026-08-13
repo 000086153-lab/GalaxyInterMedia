@@ -48,7 +48,7 @@ unset($_SESSION['form_flash']);
   <header class="site-header">
     <div class="container nav">
       <a class="brand" href="#inicio" aria-label="GalaxyInterMedia, ir al inicio">
-        <span class="brand-mark brand-fallback" aria-hidden="true">GI</span>
+        <img class="brand-mark" src="IMG/logo.jpg" alt="Logotipo de GalaxyInterMedia">
         <span>GalaxyInterMedia</span>
       </a>
 
@@ -102,10 +102,8 @@ unset($_SESSION['form_flash']);
         <div class="cosmic-card" aria-label="Ilustración conceptual de Gary, mascota de GalaxyInterMedia">
           <div class="stars" aria-hidden="true"></div>
           <div class="orbit" aria-hidden="true"></div>
-          <div class="mascot mascot-fallback" role="img" aria-label="Espacio reservado para Gary, mascota de GalaxyInterMedia">
-            <span>G</span>
-            <small>Gary</small>
-          </div>
+        <img class="mascot" src="IMG/mascota.png" alt="Gary, mascota de GalaxyInterMedia">
+        </div>
         </div>
       </div>
     </section>
@@ -155,7 +153,7 @@ unset($_SESSION['form_flash']);
 
         <div class="cards">
           <article class="card">
-            <div class="card-image card-image--production" role="img" aria-label="Producción audiovisual">🎥</div>
+            <img class="card-image" src="IMG/produccion.png" alt="Producción de contenido de GalaxyInterMedia">
             <div class="card-icon" aria-hidden="true">🎬</div>
             <h3>Producción de contenido</h3>
             <p>
@@ -170,7 +168,7 @@ unset($_SESSION['form_flash']);
           </article>
 
           <article class="card">
-            <div class="card-image card-image--brand" role="img" aria-label="Desarrollo de identidad de marca">✦</div>
+            <img class="card-image" src="IMG/marca.png" alt="Desarrollo de marca de GalaxyInterMedia">
             <div class="card-icon" aria-hidden="true">✦</div>
             <h3>Desarrollo de marca</h3>
             <p>
@@ -185,7 +183,7 @@ unset($_SESSION['form_flash']);
           </article>
 
           <article class="card">
-            <div class="card-image card-image--marketing" role="img" aria-label="Analítica y marketing digital">↗</div>
+            <img class="card-image" src="IMG/marketing.png" alt="Marketing digital de GalaxyInterMedia">
             <div class="card-icon" aria-hidden="true">📈</div>
             <h3>Marketing digital</h3>
             <p>
